@@ -1,5 +1,7 @@
-
 /* Add a black background color to the top navigation */
+
+body {margin:0;}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -13,6 +15,7 @@
   padding: 12px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin:0 ;
 }
 
 /* Change the color of links on hover */
@@ -40,4 +43,14 @@ z-index:-1;
   height: 100%;
   overflow: hidden;
 object-fit: cover;
+}
+
+.text1 {
+    font-family: 'Exo 2', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+    position: relative
 }

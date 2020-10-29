@@ -1,5 +1,10 @@
-
 /* Add a black background color to the top navigation */
+a {
+  color: inherit;
+  all: unset
+}
+body {margin:0;}
+
 .topnav {
   background-color: #333;
   overflow: hidden;
@@ -13,6 +18,7 @@
   padding: 12px 16px;
   text-decoration: none;
   font-size: 17px;
+  margin:0 ;
 }
 
 /* Change the color of links on hover */
@@ -40,4 +46,27 @@ z-index:-1;
   height: 100%;
   overflow: hidden;
 object-fit: cover;
+}
+
+.text1 {
+    color: #4CAF50;
+    font-family: 'Exo 2', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+    position: relative
+}
+
+.header {
+  /* font-family: 'Sansita Swashed', cursive;  */
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,.4);
+  border-radius: 50px;   /* Makes more of a circle */
+  padding: 10px;
+  background-image: linear-gradient(#B8B8B8, #989898);
+  text-align: center;
+  margin-left: 600px;
+  margin-right: 600px;
+
 }
